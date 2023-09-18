@@ -1,0 +1,610 @@
+#donationDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 2%;
+    padding-inline: 1%;
+    background-color: #F0FCDA;
+    margin-inline: 3.5%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+#donationLeft #h4Left{
+    background-color: rgb(69, 67, 67);
+    color: #fff;
+    /* height: 50%; */
+    /* padding: 3vh 1vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 2%;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 14px;
+}
+#donationLeft #h4Right{
+    background-color: rgb(69, 67, 67);
+    color: #fff;
+    /* height: 5em; */
+    /* padding: 13% 8%; */
+    padding-inline: 2%;
+    /* padding-block: 7%; */
+    /* padding: 3vh 1vw; */
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-left: -1px;
+}
+
+#donationLeft input{
+    /* width: 5em; */
+    width: 25%;
+    height: 3.8em;
+    margin-left: -1px;
+}
+
+#donationRight button{
+    background-color: #fff;
+    outline: none;
+    border: none;
+    /* border: 1px solid lightgray; */
+    padding: 1.2em 1.2em;
+    border-radius: 5px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+#donationRight button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: gray;
+    color: #fff;
+}
+
+#donationRight #quickDonateBtn{
+    background-color: #8DC63F;
+    color: #fff;
+    font-weight: 600;
+}
+
+#projects{
+    width: 93%;
+    margin: auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+#projects #itEnt{
+    background-image: url(./images/itEnt.jpg);
+    /* background-size:50em 25em; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 31%;
+    height: 17em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 7px;
+    box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.6);
+}
+
+
+#projects #DailyFood{
+    background-image: url(./images/dailyFood.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 31%;
+    height: 17em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 7px;
+    box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.6);
+}
+
+#projects #Zakat{
+    /* background-color: rgba(0,0,0, 0.6); */
+    background: url(./images/zakaat.jpg);
+     /* rgba(0, 0, 0, 0.6); */
+    /* background-color: rgba(0,0,0,.6); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 31%;
+    height: 17em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 7px;
+    box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.6);
+}
+
+#projects #Zakat:hover, #projects #DailyFood:hover, #projects #itEnt:hover {
+    transform: scale(1.05);
+    transition: .4s;
+}
+
+#projects button{
+    background-color: #8DC63F;
+    width: 93%;
+    height: 2.5em;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    margin: 0px 0px 1em 0px;
+    cursor: pointer;
+}
+
+/* #projects #itEnt button{
+    margin: 0px 0px 1em 1px;
+} */
+
+#projects p{
+    font-size: 26px;
+    /* background-color: #8DC63F; */
+    margin: 1em 1em;
+}
+
+
+#otherProjects{
+    width: 93%;
+    margin: auto;
+    /* background-color: #8DC63F; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+#otherLeft{
+    width: 45%;
+    margin-right: 3%;
+    /* height: 450px; */
+    height: 60vh;
+    /* background-color: violet; */
+    /* background-color: #8DC63F; */
+}
+#otherLeft img{
+    width: 100%;
+    height: 400px;
+    /* aspect-ratio: 16/9; */
+    position: relative;
+    border-radius: 35px 0px 0px 0px ;
+}
+
+
+#otherLeft #txt{
+    position:relative;
+    top: -404px;
+    /* top: 50px; */
+    border-radius: 35px 0px 0px 0px ;
+    background-color: #8DC63F;
+    width: 50%;
+    height: 200px;
+    /* font-size: 1vw; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* z-index: 1; */
+}
+
+
+#otherRight{
+    width: 50%;
+    height: fit-content;
+    /* background-color: turquoise; */
+}
+
+#counts{
+    background-color: #0d6efd;
+    position: relative;
+    width: 93%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: auto; 
+}
+
+#counts:before{
+    background-image: url(./images/upcoming_background.a669f19ea2aee3c7e10f.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: .2;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* #counts img{
+    width: 20vh;
+    height: 10vh;
+} */
+
+#counts #countsFood, #counts #countsFamilyAdoption, #counts #countsEducation, #counts #countsMedical{
+    /* background-color: yellowgreen; */
+    width: 250px;
+    height: 300px;
+    margin-block: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* padding: 3%; */
+    /* border-radius: 50%; */
+    /* background-color: white; */
+}
+
+#countsFoodLogo, #countsFamilyLogo, #countsEduLogo, #countsMedLogo{
+    background-color: white;
+    /* background-image: url(./images/50.png); */
+    border-radius: 50%;
+    width:170px;
+    height: 170px;
+    padding-block: 75px;
+    /* width: 100%;
+    height: 100%; */
+    /* padding: 25%; */
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#counts h2, #counts p{
+    color: #fff;
+}
+
+#testimonials{
+    width: 93%;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#testimonials #heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+
+#testimonials #what{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#carousel{
+    background-color: #eeeeee;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-block: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#carouselImg{
+    height: 10em;
+    width: 10em;
+    background-color: #fff;
+    border-radius: 50%;
+    /* margin-block: 20px; */
+}
+
+#carouselImg img{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+#carouselName{
+    margin-top: 30px;
+}
+
+#carouselMsg p{
+    text-align: center; 
+    font-size: 20px;
+    /* background-color: bisque;  */
+    margin-inline: 25px;
+	margin-block:20px;
+    line-height: 2;
+}
+
+#btnLeft, #btnRight {
+    font-size: 25px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: #8DC63F;
+    color: white;
+}
+
+#btnLeft{
+    color: #000;
+    background-color: #fff;
+}
+
+#news{
+    width: 93%;
+    height: auto;
+    margin: auto;
+    margin-top: 35px;
+}
+
+#newsHeading{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+#newsItems{
+    display: flex;
+    justify-content: space-between;
+}
+
+#card1, #card2, #card3, #card4{
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-inline: 5px;
+    margin-bottom: 25px;
+}
+#newsItems img{
+    /* background-color: #eeeeee; */
+    border-radius: 10px 10px 0px 0px;
+}
+
+#newsItems #container{
+    padding: 15px;
+}
+
+.newsDateBtn{
+    background-color: #8DC63F;
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.newsArrBtn{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    /* color: #fff; */
+    margin-top: 10px;
+}
+.newsArrBtn:hover{
+    transform: scale(1.1);
+}
+
+#guide{
+    width: 93%;
+    margin: auto;
+    height: auto;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#0d6efd;
+    color: #fff;
+}
+
+#guide #guideForm{
+    /* background-color: #8DC63F; */
+    width: 50%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#guide #guideForm form{
+    width: 80%;    
+    display: flex; 
+    flex-direction: column;
+}
+
+#guide #guideForm form input[type=text]{
+    width: 100%;
+    padding-inline: 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    height: 60px;    
+    margin-bottom: 25px;
+    border-radius: 7px;
+}
+::placeholder{
+    color: #fff;
+}
+#guide #guideForm form input[type=submit]{
+    width: 100%;
+    background-color:#fff;
+    border:none;
+    height: 60px;
+    border-radius: 7px;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    height: fit-content;
+    margin: auto; 
+    color: #fff;
+    margin-top:  50px;
+    /* line-height: 3; */
+}
+footer #container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer #about, footer #explore, footer #contact{
+    line-height: 2;
+}
+
+footer:before{
+    background-image: url(./images/upcoming_background.a669f19ea2aee3c7e10f.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: .1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width:990px) {
+    #donationDiv{
+        flex-direction: column;
+        padding-inline: 2%;
+        /* background-color: orange; */
+    }
+
+    #donationLeft input{
+        width: 100%;
+        height: 3.8em;
+    }
+
+    #heroLeft{
+        width: 100%;
+    }
+    #heroRight{
+        display: none;
+    }
+
+    #doing #doingBottom{
+        flex-direction: column;
+        /* background-color: #8DC63F; */
+    }
+
+    #welfare, #Medical, #OnlineSadaqah, #ROPlant, #Education, #Food{
+        /* background-color: rgba(182,239,73,.2); */
+        width: 75%;
+        height: auto;
+        padding-block: 2%;
+        /* aspect-ratio: 16/9; */
+    }
+
+    #projects{
+        width: 93%;
+        display: block;
+    }
+
+    #projects #itEnt, #projects #DailyFood, #projects #Zakat {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 4%;
+    }
+
+    #otherProjects{
+        flex-direction: column;
+        /* justify-content: space-around; */
+        align-items: center;
+        /* background-color: #254262; */
+    }
+
+    #otherProjects #otherLeft{
+        /* background-color:tomato ; */
+        width: 75%;
+        height: 420px;
+    }
+    #otherProjects #otherRight{
+        /* background-color:tomato ; */
+        width: 75%;
+        /* height: 420px; */
+    }
+
+    #otherLeft img, #otherLeft #txt{
+        border-radius: 0px 0px;
+    }
+
+    #counts{
+        display: flex;
+        /* align-items: center; */
+        flex-wrap:wrap;
+        margin-top: 3%;
+    }
+
+    #countsFoodLogo, #countsFamilyLogo,  #countsEduLogo, #countsMedLogo{
+        width: 170px;
+        height: 170px;
+        margin-block: 5%;
+        padding: 50px;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    #newsItems{
+        flex-wrap: wrap;
+    }
+
+    footer #container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer #about{
+        margin: 20px 0px;
+        line-height: 3;
+    }
+    footer #explore{
+        margin-bottom: 20px;
+        line-height: 3;
+    }
+    footer #contact{
+        /* margin-bottom: 20px; */
+        line-height: 1.5;
+    }
+
